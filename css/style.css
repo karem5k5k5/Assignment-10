@@ -1,0 +1,60 @@
+:root{
+    --bg-color:#24353F;
+    --text-color:#17A2B8;
+    --logout-color:#FFC107;
+}
+body{
+    background-color: var(--bg-color);
+}
+.container{
+    background-color: var(--bg-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h1 ,h2, button{
+    color: var(--text-color);
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder{
+    color: #ccc !important;
+}
+button{
+    border: 2px solid var(--text-color);
+    transition: all 0.3s ease;
+    background-color: transparent;
+    color: var(--text-color);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--text-color);
+    color: #fff;
+}
+p a{
+    color: #fff;
+    transition: all 0.3s;
+}
+
+p a:hover{
+    color: blue;
+}
+
+#logOut{
+    color: #ccc;
+    border: 1px solid var(--logout-color) ;
+    transition: all 0.3s;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#logOut:hover{
+    background-color: var(--logout-color);
+    color: #fff;
+}
+
+nav{
+    height: 60px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
